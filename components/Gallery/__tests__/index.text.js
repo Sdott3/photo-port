@@ -21,6 +21,5 @@ describe('Gallery component', () => {
 
 it('renders', () => {
   const { getByTestId } = render(<Gallery currentCategory={portrait} />)
-  // eslint-disable-next-line testing-library/prefer-screen-queries
   expect(getByTestId('h1tag')).toHaveTextContent('Portraits')
 })

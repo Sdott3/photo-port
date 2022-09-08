@@ -23,7 +23,7 @@ describe('emoji is visible', () => {
     const { getByLabelText } = render(<Nav />);
 
     
-    expect(getByLabelText('camera')).toHaveTextContent('📸');
+  expect(getByLabelText('camera')).toHaveTextContent('📸');
   });
 })
 
